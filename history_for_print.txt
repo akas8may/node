@@ -1,0 +1,40 @@
+    2  sudo sh -c 'echo "deb http://archive.getdeb.net/ubuntu xenial-getdeb apps" >> /etc/apt/sources.list.d/getdeb.list'
+    3  wget -q -O - http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
+    4  sudo apt install filezilla
+    5  sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
+    6  sudo dpkg --add-architecture i386
+    8  sudo snap install skype --classic
+   12  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+   13  echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+   15  sudo apt-get update
+   16  sudo apt-get install sublime-text
+   17  sudo apt-get update
+   18  sudo apt-get install apache2
+   19  sudo apache2ctl configtest
+   21  sudo -H gedit /etc/apache2/apache2.conf
+   22  /etc/init.d/apache2 restart
+   37  sudo apt-get update
+   38  sudo apt-get install nodejs
+   39  sudo apt-get install npm
+   40  node -v
+   41  nodejs -v
+   42  sudo apt-get install build-essential libssl-dev
+   43  curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh -o install_nvm.sh
+   44  nano install_nvm.sh
+   45  bash install_nvm.sh
+   46  source ~/.profile
+   47  nvm ls-remote
+   48  nvm install 10.1.0
+   49  nvm use 10.1.0
+   52  npm install -g express
+   56  npm link express
+   57  npm install -g node-dev
+   58  npm install -g node-hint
+   60  node-hint app.js
+   61  npm install -g nodehint
+   62  node-hint app.js
+   63  npm install -g node-hint
+   64  node-hint app
+   65  npm init
+   68  /etc/init.d/apache2 restart
+   
