@@ -1,0 +1,15 @@
+Git Details
+http://rogerdudler.github.io/git-guide/
+
+SVN Details
+https://www.tutorialspoint.com/svn/index.htm
+
+file sycn
+https://www.linuxtechi.com/install-and-use-lsyncd-on-centos-7-rhel-7/
+
+Mysql  Replication
+https://www.tecmint.com/how-to-setup-mysql-master-slave-replication-in-rhel-centos-fedora/
+
+
+
+
